@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Farmer's Portal</title>
+
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../node_modules/jquery/src/css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/global.css" rel="stylesheet">
+
+</head>
+
+<body background="../assets/Images/spy.jpg">
+    <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+        <!-- <h2 style="color: darkorange">Farmer's Portal</h2> -->
+        <img src="../assets/Images/okok.png" alt="Book" id="hamb" width="50px" height="50px">
+        <a class="navbar-brand mr-1" href="../Index.html"><b><h2>Farmer's Portal</h2></b></a>
+
+        <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+
+                    <li>
+                        <a href="../Register/Register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="../Login/Login.html">Log In</a>
+                    </li>
+
+                    <li>
+                        <a href="../About/AboutUs.html">About Us</a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="../Contact/Contact.html">Contact</a>
+                    </li> -->
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+
+
+               
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+
+    <fieldset>
+        <form>
+            <legend>About Us</legend>
+            <p>
+                <b> Agriculture is the backbone of the Indian Economy"- said Mahatma Gandhi six decades ago. Even today, the
+                    situation is still the same, with almost the entire economy being sustained by agriculture, which is
+                    the mainstay of the villages. It contributes 16% of the overall GDP and accounts for employment of approximately
+                    52% of the Indian population. Rapid growth in agriculture is essential not only for self-reliance but
+                    also to earn valuable foreign exchange. Indian farmers are second to none in production and productivity
+                    despite of the fact that millions are marginal and small farmers. They adopt improved agriculture technology
+                    as efficiently as farmers in developed countries. It is felt that with provision of timely and adequate
+                    inputs such as fertilizers, seeds, pesticides and by making available affordable agricultural credit
+                    /crop insurance, Indian farmers are going to ensure food and nutritional security to the Nation.</b>
+            </p>
+        </form>
+    </fieldset>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../assets/sidebar-jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#hamb").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</body>
+
+</html>

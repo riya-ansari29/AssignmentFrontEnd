@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Farmer's Portal</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../node_modules/jquery/src/css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/global.css" rel="stylesheet">
+
+
+    <style>
+        .footer {
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body background="../assets/Images/spy.jpg">
+    <nav class="navbar navbar-expand navbar-dark bg-dark static-top" style="height: 70px;">
+        <!-- <h2 style="color: darkorange">Farmer's Portal</h2> -->
+        <img src="../assets/Images/okok.png" alt="Book" id="hamb" width="50px" height="50px">
+        <a class="navbar-brand mr-1" href="../Index.html">
+            <b>
+                <h2>Farmer's Portal</h2>
+            </b>
+        </a>
+
+        <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+
+                    <li>
+                        <a href="../Register/Register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="../Login/Login.html">Log In</a>
+                    </li>
+
+                    <li>
+                        <a href="../About/AboutUs.html">About Us</a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="../Contact/Contact.html">Contact</a>
+                    </li> -->
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+
+
+
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <div class="container">
+        <center>
+
+        </center>
+        <div class="col-sm-6" style="background:rgb(148, 194, 148)" ;margin-right: 500px;>
+            <h3>
+                <b>REGISTER HERE-</b>
+            </h3>
+            <form action=" ">
+                <div class="col-sm-6" ;margin-right:500px;>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mobile">Mobile:</label>
+                        <input type="number" class="form-control" id="Mobile" placeholder="Enter Mobile Number" name="Mobile">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="age">Age:</label>
+                        <input type="number" class="form-control" id="age" placeholder="Enter Age" name="age">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Gender:</label>
+                        <select placeholder="--Select Gender--" name="Gender" id="Gender" class="form-control" style="height:32px;">
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                            <option value="">Others</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="state">State:</label>
+                        <select placeholder="--Select State--" name="State" id="state" class="form-control" style="height:32px;">
+
+                            <option>Andhra Pradesh</option>
+                            <option>Arunachal Pradesh</option>
+                            <option>Assam</option>
+                            <option>Bihar</option>
+                            <option>Chattisgarh</option>
+                            <option>Goa</option>
+                            <option>Gujarat</option>
+                            <option>Hariyana</option>
+                            <option>Maharashtra</option>
+                            <option>Punjab</option>
+                            <option>Rajasthan</option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="district">District:</label>
+                        <select placeholder="--Select District--" name="District" id="District" class="form-control" style="height:32px;">
+
+                            <option>Hingoli</option>
+                            <option>Bhandara</option>
+                            <option>Parbhani</option>
+                            <option>Aurangabad</option>
+                            <option>Yavatmal</option>
+                            <option>Nagpur</option>
+                            <option>Satara</option>
+                            <option>Mumbai</option>
+                            <option>Latur</option>
+                            <option>Amravati</option>
+                            <option>Wardha</option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="state">Qualification:</label>
+                        <select placeholder="--Select Qualification--" name="Qualification" id="Qualification" class="form-control" style="height:32px;">
+                            <option value="">Illiterate</option>
+                            <option value="">Post Graduate</option>
+                            <option value="">Graduate</option>
+                            <option value="">12th</option>
+                            <option value="">10th</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="land">Land Holding:</label>
+                        <textarea rows="3" cols="30" name="land" id="land" class="form-control"></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn btn-default" style="background-color: darkolivegreen" id="submit">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>This website belongs to Department of Agriculture & Cooperation and Farmers Welfare, Ministry of Agriculture and
+            Farmers Welfare, Government of India</p>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="../assets/sidebar-jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="Register.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#hamb").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</body>
+
+</html>

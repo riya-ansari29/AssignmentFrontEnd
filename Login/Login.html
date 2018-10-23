@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Farmer's Portal</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../node_modules/jquery/src/css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/global.css" rel="stylesheet">
+
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body background="../assets/Images/spy.jpg">
+    <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+        <!-- <h2 style="color: darkorange">Farmer's Portal</h2> -->
+        <img src="../assets/Images/okok.png" alt="Book" id="hamb" width="50px" height="50px">
+        <a class="navbar-brand mr-1" href="../Index.html">
+            <b>
+                <h2>Farmer's Portal</h2>
+            </b>
+        </a>
+
+        <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+
+                    <li>
+                        <a href="../Register/Register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="../Login/Login.html">Log In</a>
+                    </li>
+
+                    <li>
+                        <a href="../About/AboutUs.html">About Us</a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="../Contact/Contact.html">Contact</a>
+                    </li> -->
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+
+
+
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <div class="container">
+        <center>
+            <div class="col-sm-6" style="background:darkseagreen";margin-right:500px;>
+                <h2>Login form</h2>
+                <form action=" ">
+                    <div class="form-group">
+                        <label for="email">Username:</label>
+                        <input type="email" class="form-control" id="user" placeholder="Enter Username" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="remember"> Remember me</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-default" id="submit" style="background-color:rgb(19, 86, 185)">Submit</button>
+                </form>
+        </center>
+        </div>
+
+        <div class="footer">
+            <p>This website belongs to Department of Agriculture & Cooperation and Farmers Welfare, Ministry of Agriculture
+                and Farmers Welfare, Government of India</p>
+        </div>
+
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="../assets/sidebar-jquery.min.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="Login.js"></script>
+        <!-- Menu Toggle Script -->
+        <script>
+            $("#hamb").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+
+</body>
+
+</html>
